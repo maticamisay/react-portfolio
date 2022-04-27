@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 :root {
-  --imperial-red: #e63946ff;
+  --imperial-red: rgb(172, 38, 49);
   --honeydew: #f1faeeff;
   --powder-blue: #a8dadcff;
   --celadon-blue: #457b9dff;
