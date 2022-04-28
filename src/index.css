@@ -39,6 +39,9 @@ body {
 }
 
 /*=== GENERAL STYLES ===*/
+section{
+  padding-top: 8rem;
+}
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
