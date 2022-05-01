@@ -8,10 +8,12 @@ header {
   height: 100%;
   position: relative;
 }
-
+.header__text {
+  margin-top: 5vh;
+}
 /*==== CTA ====*/
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 10vh;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -38,14 +40,14 @@ header {
 /*==== HEADER SOCIALS  ====*/
 .me {
   background: linear-gradient(var(--celadon-blue), transparent);
-  width: 304px;
-  height: 304px;
+  width: 27rem;
+  height: 27rem;
   position: absolute;
-  left: calc(50% - 152px);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  bottom: 0;
+  left: calc(50% - 13.5rem);
+  border-radius: 14rem 14rem 0 0;
   overflow: hidden;
-  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 /*==== ME ====*/
@@ -65,12 +67,12 @@ header {
     /* padding-top: 3rem; */
   }
   .me {
-    width: 259px;
-    height: 259px;
-    margin-top: 4rem;
+    width: 25rem;
+    height: 25rem;
     position: absolute;
-    left: calc(50% - 114px);
-    padding: 1.5rem 1.125rem 1.125rem 1.125rem;
+    bottom: 0;
+    left: calc(50% - 12.5rem);
+    padding: 2.1rem 1.125rem 1.125rem 1.125rem;
   }
 }
 /*==== MEDIA QUERIES (SMALL DEVICES) ====*/
@@ -83,12 +85,15 @@ header {
   .scroll__down {
     display: none;
   }
+  .header__text {
+    margin-top: 0;
+  }
   .me {
-    width: 228px;
-    height: 228px;
-    margin-top: 6rem;
+    width: 80vw;
+    height: 80vw;
     position: absolute;
-    left: calc(50% - 114px);
-    padding: 2.1rem 1.125rem 1.125rem 1.125rem;
+    bottom: 0;
+    left: calc(50% - 40vw);
+    padding: 2.3rem 1.125rem 1.125rem 1.125rem;
   }
 }
