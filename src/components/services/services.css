@@ -5,27 +5,29 @@
 }
 
 .service {
-  background: var(--celadon-blue);
-  border-radius: 0 0 2rem 2rem;
-  border: 1px solid var(--powder-blue);
+  background: #AC2631;
+  border-radius: 2rem 2rem 2rem 2rem;
+  border: 1px solid #AC2631;
+
   height: fit-content;
   transition: var(--transition);
 }
 
 .service:hover {
   background: transparent;
-  border-color: var(--celadon-blue);
+  border-color: #8A2029;
   cursor: default;
 }
 
 .service__head {
   background: var(--celadon-blue-variant);
+  background: #8A2029;
   padding: 2rem;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 2rem 2rem 2rem 2rem;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 .service__head h3 {
-  color: var(--prussian-blue);
+  color: var(--honeydew);
   font-size: 1rem;
   text-align: center;
 }
@@ -39,14 +41,15 @@
 }
 
 .service__list-icon {
-  color: var(--prussian-blue);
+  color: var(--honeydew);
   margin-top: 2px;
+  font-size: 1.6rem;
 }
 .service__list p {
   font-size: 0.9rem;
 }
 .service:hover .service__list-icon {
-  color: var(--celadon-blue);
+  color: var(--honeydew);
 }
 /*==== MEDIA QUERIES (MEDIUM DEVICES) ====*/
 @media screen and (max-width: 1024px) {
