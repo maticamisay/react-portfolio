@@ -45,7 +45,7 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /*==== ME ====*/
@@ -65,12 +65,12 @@ header {
     /* padding-top: 3rem; */
   }
   .me {
-    width: 228px;
-    height: 228px;
-    margin-top: 6rem;
+    width: 259px;
+    height: 259px;
+    margin-top: 4rem;
     position: absolute;
     left: calc(50% - 114px);
-    padding: 1rem 1.125rem 1.125rem 1.125rem;
+    padding: 1.5rem 1.125rem 1.125rem 1.125rem;
   }
 }
 /*==== MEDIA QUERIES (SMALL DEVICES) ====*/
@@ -86,9 +86,9 @@ header {
   .me {
     width: 228px;
     height: 228px;
-    margin-top: 2rem;
+    margin-top: 6rem;
     position: absolute;
     left: calc(50% - 114px);
-    padding: 1rem 1.125rem 1.125rem 1.125rem;
+    padding: 2.1rem 1.125rem 1.125rem 1.125rem;
   }
 }
