@@ -17,3 +17,10 @@
     border-radius: 2rem;
     user-select: none;
 }
+
+.client__review{
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
