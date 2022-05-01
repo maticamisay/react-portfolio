@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 8rem;
   overflow: hidden;
 }
 .header__container {
@@ -28,48 +28,67 @@ header {
   bottom: 3rem;
 }
 
-.header__socials::after{
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--celadon-blue);
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--celadon-blue);
 }
 
 /*==== HEADER SOCIALS  ====*/
-.me{
-background: linear-gradient(var(--celadon-blue),transparent);
-width: 22rem;
-height: 22rem;
-position: absolute;
-left: calc(50% - 11rem);
-margin-top: 4rem;
-border-radius: 12rem 12rem 0 0;
-overflow: hidden;
-padding: 5rem 1.5rem 1.5rem 1.5rem;
+.me {
+  background: linear-gradient(var(--celadon-blue), transparent);
+  width: 304px;
+  height: 304px;
+  position: absolute;
+  left: calc(50% - 152px);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
 /*==== ME ====*/
-.scroll__down{
+.scroll__down {
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /*==== MEDIA QUERIES (MEDIUM DEVICES) ====*/
 @media screen and (max-width: 1024px) {
-  header{
-    height: 68vh;
+  header {
+    height: 100vh;
+    /* padding-top: 3rem; */
+  }
+  .me {
+    width: 228px;
+    height: 228px;
+    margin-top: 6rem;
+    position: absolute;
+    left: calc(50% - 114px);
+    padding: 1rem 1.125rem 1.125rem 1.125rem;
   }
 }
 /*==== MEDIA QUERIES (SMALL DEVICES) ====*/
 @media screen and (max-width: 600px) {
-  header{
+  header {
     height: 100vh;
+    /* padding-top: 3rem; */
   }
-  .header__socials,.scroll__down{
+  .header__socials,
+  .scroll__down {
     display: none;
+  }
+  .me {
+    width: 228px;
+    height: 228px;
+    margin-top: 2rem;
+    position: absolute;
+    left: calc(50% - 114px);
+    padding: 1rem 1.125rem 1.125rem 1.125rem;
   }
 }
