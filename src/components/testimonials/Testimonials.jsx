@@ -1,14 +1,25 @@
 import React from "react";
 import "./testimonials.css";
 import Avatar1 from "../../assets/avatar.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper";
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
-      <div className="container testimonials__container">
-        <article className="testimonial">
+      <Swiper
+      spaceBetween={40}
+        pagination={{ clickable: true }}
+        modules={[Pagination]}
+        className="container testimonials__container"
+      >
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avatar1} alt="avatar png" />
           </div>
@@ -18,8 +29,8 @@ const Testimonials = () => {
             corporis nostrum sapiente deleniti laborum ratione inventore totam
             quos cum eaque?
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avatar1} alt="avatar png" />
           </div>
@@ -29,8 +40,8 @@ const Testimonials = () => {
             corporis nostrum sapiente deleniti laborum ratione inventore totam
             quos cum eaque?
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avatar1} alt="avatar png" />
           </div>
@@ -40,8 +51,8 @@ const Testimonials = () => {
             corporis nostrum sapiente deleniti laborum ratione inventore totam
             quos cum eaque?
           </small>
-        </article>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };
