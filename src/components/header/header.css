@@ -40,11 +40,11 @@ header {
 /*==== HEADER SOCIALS  ====*/
 .me {
   background: linear-gradient(var(--celadon-blue), transparent);
-  width: 27rem;
-  height: 27rem;
+  width: 19rem;
+  height: 19rem;
   position: absolute;
   bottom: 0;
-  left: calc(50% - 13.5rem);
+  left: calc(50% - 9.5rem);
   border-radius: 14rem 14rem 0 0;
   overflow: hidden;
   padding: 1rem 1.5rem 1.5rem 1.5rem;
@@ -67,11 +67,11 @@ header {
     /* padding-top: 3rem; */
   }
   .me {
-    width: 25rem;
-    height: 25rem;
+    width: 18rem;
+    height: 18rem;
     position: absolute;
     bottom: 0;
-    left: calc(50% - 12.5rem);
+    left: calc(50% - 9rem);
     padding: 2.1rem 1.125rem 1.125rem 1.125rem;
   }
 }
@@ -89,11 +89,11 @@ header {
     margin-top: 0;
   }
   .me {
-    width: 80vw;
-    height: 80vw;
+    /* width: 17rem;
+    height: 17rem; */
     position: absolute;
     bottom: 0;
-    left: calc(50% - 40vw);
+    /* left: calc(50% - 40vw); */
     padding: 2.3rem 1.125rem 1.125rem 1.125rem;
   }
 }
