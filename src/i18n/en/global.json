@@ -16,5 +16,13 @@
     "proyectos_total": "10+ Completed",
     "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
     "about_boton": "Let's Talk"
+  },
+  "experience":{
+    "skills":"What Skills I Have",
+    "myExp":"My Experience",
+    "frontend":"Frontend Development",
+    "1y":"1 year",
+    "2y":"2+ years",
+    "backend":"Backend Development"
   }
 }

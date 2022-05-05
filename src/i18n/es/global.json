@@ -16,5 +16,13 @@
     "proyectos_total": "10+ Completados",
     "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
     "about_boton": "¡Hablemos!"
+  },
+  "experience":{
+    "skills":"Mis habilidades y",
+    "myExp":"Mi Experiencia",
+    "frontend":"Desarrollo Frontend",
+    "1y":"1 año",
+    "2y":"+2 años",
+    "backend":"Desarrollo Backend"
   }
 }
