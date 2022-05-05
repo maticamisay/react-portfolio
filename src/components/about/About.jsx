@@ -4,10 +4,19 @@ import ME from "../../assets/me-about.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const [t, i18n] = useTranslation();
+
   return (
     <section id="about">
+      <h1>{t("about.idioma")}</h1>
+      <br />
+      <br />
+      <button onClick={()=> i18n.changeLanguage("es")}>Es</button>
+      <button onClick={()=> i18n.changeLanguage("en")}>En</button>
+
       <h5>Get To Know</h5>
       <h2>About ME</h2>
       <div className="container about__container">
@@ -40,7 +49,9 @@ const About = () => {
             labore animi facere, similique dicta quo temporibus! Veritatis
             dignissimos at aliquid, odit beatae ullam!
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
