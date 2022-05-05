@@ -1,5 +1,20 @@
 {
+  "header":{
+    "presentacion":"¡Hola! Soy",
+    "carrera":"Desarrollador Web FullStack",
+    "boton_cv":"Descargar CV",
+    "boton_contacto":"Mandame un mensaje"
+  },
   "about": {
-    "idioma": "español"
+    "sobre_mi": "Un poco",
+    "YO": "Sobre Mi",
+    "exp": "Experiencia",
+    "exp_tiempo": "+2 Años de Experiencia",
+    "clientes": "Clientes",
+    "clientes_total": "10+ Clientes satisfechos! :)",
+    "proyectos": "Proyectos",
+    "proyectos_total": "10+ Completados",
+    "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
+    "about_boton": "¡Hablemos!"
   }
 }

@@ -22,26 +22,11 @@ const Header = () => {
               Eng
             </button>
           </div>
-          {/* <li>
-            <a href="#" onClick={() => i18n.changeLanguage("es")}>
-              Es
-              {/* <button onClick={() => i18n.changeLanguage("es")}>Es</button>
-            </a>
-          </li>
-          <li>
-            <a href="#" onClick={() => i18n.changeLanguage("en")}>
-              En
-              {/* <button onClick={() => i18n.changeLanguage("en")}>En</button> 
-            </a>
-          </li> 
-          */}
         </div>
         <div className="header__text">
-          <h1>{t("about.idioma")}</h1>
-
-          <h5>Hello I'm</h5>
+          <h5>{t("header.presentacion")}</h5>
           <h1>Matias</h1>
-          <h5 className="text-light">Fullstack Developer</h5>
+          <h5 className="text-light">{t("header.carrera")}</h5>
         </div>
         <CTA />
         <HeaderSocials />

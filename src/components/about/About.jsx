@@ -11,14 +11,8 @@ const About = () => {
 
   return (
     <section id="about">
-      <h1>{t("about.idioma")}</h1>
-      <br />
-      <br />
-      <button onClick={()=> i18n.changeLanguage("es")}>Es</button>
-      <button onClick={()=> i18n.changeLanguage("en")}>En</button>
-
-      <h5>Get To Know</h5>
-      <h2>About ME</h2>
+      <h5>{t("about.sobre_mi")}</h5>
+      <h2>{t("about.YO")}</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -29,28 +23,25 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1+ Year Working</small>
+              <h5>{t("about.exp")}</h5>
+              <small>{t("about.exp_tiempo")}</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>10+ Satisfied Clients</small>
+              <h5>{t("about.clientes")}</h5>
+              <small>{t("about.clientes_total")}</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <h5>{t("about.proyectos")}</h5>
+              <small>{t("about.proyectos_total")}</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            officia explicabo nesciunt inventore tempora placeat, adipisci
-            labore animi facere, similique dicta quo temporibus! Veritatis
-            dignissimos at aliquid, odit beatae ullam!
+          {t("about.texto_sobre_mi")}
           </p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            {t("about.about_boton")}
           </a>
         </div>
       </div>
