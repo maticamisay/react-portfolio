@@ -12,8 +12,14 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
+        <div className="header__text">
+          <h5>{t("header.presentacion")}</h5>
+          <h1>Matias</h1>
+          <h5 className="text-light">{t("header.carrera")}</h5>
+        </div>
+        <CTA />
         <div className="dropdown">
-          <IoLanguageSharp className="dropdownbtn" />
+          LANGUAGE <IoLanguageSharp className="dropdownbtn" />
           <div className="dropdown-content">
             <button href="" onClick={() => i18n.changeLanguage("es")}>
               Esp
@@ -23,12 +29,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="header__text">
-          <h5>{t("header.presentacion")}</h5>
-          <h1>Matias</h1>
-          <h5 className="text-light">{t("header.carrera")}</h5>
-        </div>
-        <CTA />
+
         <HeaderSocials />
         <div className="me">
           <img src={ME} alt="me" />
