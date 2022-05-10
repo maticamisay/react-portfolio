@@ -18,15 +18,15 @@ const Header = () => {
           <h5 className="text-light">{t("header.carrera")}</h5>
         </div>
         <CTA />
-        <div className="dropdown">
-          LANGUAGE <IoLanguageSharp className="dropdownbtn" />
-          <div className="dropdown-content">
-            <button href="" onClick={() => i18n.changeLanguage("es")}>
+        <div className="header__lang">
+          LANGUAGE <IoLanguageSharp />
+          <div >
+            <a href="#" className='btn' onClick={() => i18n.changeLanguage("es")}>
               Esp
-            </button>
-            <button href="" onClick={() => i18n.changeLanguage("en")}>
+            </a>
+            <a href="#" className='btn' onClick={() => i18n.changeLanguage("en")}>
               Eng
-            </button>
+            </a>
           </div>
         </div>
 
