@@ -2,6 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import Avatar1 from "../../assets/avatar.png";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTranslation } from "react-i18next";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -9,12 +10,14 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 const Testimonials = () => {
+  const [t, i18n] = useTranslation();
+
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>{t("testimonials.review")}</h5>
+      <h2>{t("testimonials.testimonials")}</h2>
       <Swiper
-      spaceBetween={40}
+        spaceBetween={40}
         pagination={{ clickable: true }}
         modules={[Pagination]}
         className="container testimonials__container"

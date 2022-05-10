@@ -17,26 +17,28 @@
     "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
     "about_boton": "Let's Talk"
   },
-  "experience":{
-    "skills":"What Skills I Have",
-    "myExp":"My Experience",
-    "frontend":"Frontend Development",
-    "1y":"1 year",
-    "2y":"2+ years",
-    "backend":"Backend Development"
+  "experience": {
+    "skills": "What Skills I Have",
+    "myExp": "My Experience",
+    "frontend": "Frontend Development",
+    "1y": "1 year",
+    "2y": "2+ years",
+    "backend": "Backend Development"
   },
-  "services":{
-    "what":"What I Offer",
-    "Services":"Services",
-    "ux":"UX/UI Designer",
-    "web":"Web Development",
-    "content":"Content Creation"
+  "services": {
+    "what": "What I Offer",
+    "Services": "Services",
+    "ux": "UX/UI Designer",
+    "web": "Web Development",
+    "content": "Content Creation"
   },
-  "portfolio":{
-    "what":"What I Offer",
-    "Services":"Services",
-    "ux":"UX/UI Designer",
-    "web":"Web Development",
-    "content":"Content Creation"
+  "portfolio": {
+    "work": "What I Offer",
+    "portfolio": "Services",
+    "title1": "UX/UI Designer"
+  },
+  "testimonials": {
+    "review": "Review from clients",
+    "testimonials": "Testimonials"
   }
 }

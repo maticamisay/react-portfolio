@@ -31,5 +31,15 @@
     "ux": "Diseño UX/UI",
     "web": "Desarrollo Web",
     "content": "Creación de contenido"
+  },
+  "portfolio": {
+    "work": "Mis últimos proyectos",
+    "portfolio": "Portafolio",
+    "title1": "Este es el título del proyecto"
+  },
+  "testimonials": {
+    "review": "Comentarios de mis clientes",
+    "testimonials": "Reseñas"
   }
 }
+
