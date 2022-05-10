@@ -4,7 +4,7 @@
     "carrera": "Desarrollador Web FullStack",
     "boton_cv": "Descargar CV",
     "boton_contacto": "Mandame un mensaje",
-    "lang":"LANGUAGE"
+    "lang": "LANGUAGE"
   },
   "about": {
     "sobre_mi": "Un poco",
@@ -30,8 +30,20 @@
     "what": "Que puedo hacer",
     "Services": "Mis Servicios",
     "ux": "Diseño UX/UI",
+    "ux1": "Innovación desde Design Thinking",
+    "ux2": "Diseño de Experiencia del Cliente",
+    "ux4": "Programa de gestión y mejora continua",
+    "ux3": "Diagnóstico de la Experiencia",
     "web": "Desarrollo Web",
-    "content": "Creación de contenido"
+    "web1": "Diseño responsive para todos los dispositivos",
+    "web2": "Con dominio.com y certificado de seguridad",
+    "web3": "Con formulario de contacto y datos",
+    "web4": "Todas las secciones que necesites",
+    "content": "Marketing Digital",
+    "cont1":"Creación de contenido de interés",
+    "cont2":"Creación y optimización de campañas publicitarias",
+    "cont3":"Manejo de Redes Sociales",
+    "cont4":"Diseño de contenidos para Redes"
   },
   "portfolio": {
     "work": "Mis últimos proyectos",
@@ -42,22 +54,21 @@
     "review": "Comentarios de mis clientes",
     "testimonials": "Reseñas"
   },
-  "contact":{
-    "title":"Estemos en contacto",
-    "contact":"Escríbeme",
-    "send":"Déjame un mensaje",
-    "name":"Nombre Completo",
-    "email":"Email",
-    "msg":"¿De qué quieres hablar?",
-    "sendMsg":"Enviar mensaje"
+  "contact": {
+    "title": "Estemos en contacto",
+    "contact": "Escríbeme",
+    "send": "Déjame un mensaje",
+    "name": "Nombre Completo",
+    "email": "Email",
+    "msg": "¿De qué quieres hablar?",
+    "sendMsg": "Enviar mensaje"
   },
-  "footer":{
-    "home":"Inicio",
-    "about":"Sobre Mi",
-    "experience":"Experiencia",
-    "services":"Servicios",
-    "portfolio":"Portafolio",
-    "testimonials":"Reseñas"
+  "footer": {
+    "home": "Inicio",
+    "about": "Sobre Mi",
+    "experience": "Experiencia",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "testimonials": "Reseñas"
   }
 }
-

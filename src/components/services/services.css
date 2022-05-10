@@ -5,9 +5,9 @@
 }
 
 .service {
-  background: #AC2631;
+  background: #ac2631;
   border-radius: 2rem 2rem 2rem 2rem;
-  border: 1px solid #AC2631;
+  border: 1px solid #ac2631;
 
   height: fit-content;
   transition: var(--transition);
@@ -15,13 +15,13 @@
 
 .service:hover {
   background: transparent;
-  border-color: #8A2029;
+  border-color: #8a2029;
   cursor: default;
 }
 
 .service__head {
   background: var(--celadon-blue-variant);
-  background: #8A2029;
+  background: #8a2029;
   padding: 2rem;
   border-radius: 2rem 2rem 2rem 2rem;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
@@ -63,9 +63,8 @@
 }
 /*==== MEDIA QUERIES (SMALL DEVICES) ====*/
 @media screen and (max-width: 600px) {
-    .services__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
