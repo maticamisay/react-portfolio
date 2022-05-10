@@ -19,7 +19,7 @@ const Experience = () => {
             <ExperienceArticle name="Javascript" experience={t("experience.2y")} />
             <ExperienceArticle name="Bootstrap" experience={t("experience.1y")} />
             <ExperienceArticle name="Tailwind" experience={t("experience.1y")} />
-            <ExperienceArticle name="React Js" experience={t("experience.2y")} />
+            <ExperienceArticle name="React Js" experience={t("experience.1y")} />
           </div>
         </div>
         <div className="experience__backend">
