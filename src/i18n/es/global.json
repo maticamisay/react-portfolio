@@ -1,9 +1,9 @@
 {
-  "header":{
-    "presentacion":"¡Hola! Soy",
-    "carrera":"Desarrollador Web FullStack",
-    "boton_cv":"Descargar CV",
-    "boton_contacto":"Mandame un mensaje"
+  "header": {
+    "presentacion": "¡Hola! Soy",
+    "carrera": "Desarrollador Web FullStack",
+    "boton_cv": "Descargar CV",
+    "boton_contacto": "Mandame un mensaje"
   },
   "about": {
     "sobre_mi": "Un poco",
@@ -11,18 +11,25 @@
     "exp": "Experiencia",
     "exp_tiempo": "+2 Años de Experiencia",
     "clientes": "Clientes",
-    "clientes_total": "10+ Clientes satisfechos! :)",
+    "clientes_total": "+10 Clientes satisfechos! :)",
     "proyectos": "Proyectos",
-    "proyectos_total": "10+ Completados",
+    "proyectos_total": "+10 Completados",
     "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
     "about_boton": "¡Hablemos!"
   },
-  "experience":{
-    "skills":"Mis habilidades y",
-    "myExp":"Mi Experiencia",
-    "frontend":"Desarrollo Frontend",
-    "1y":"1 año",
-    "2y":"+2 años",
-    "backend":"Desarrollo Backend"
+  "experience": {
+    "skills": "Mis habilidades y",
+    "myExp": "Mi Experiencia",
+    "frontend": "Desarrollo Frontend",
+    "1y": "1 año",
+    "2y": "+2 años",
+    "backend": "Desarrollo Backend"
+  },
+  "services": {
+    "what": "Que puedo hacer",
+    "Services": "Mis Servicios",
+    "ux": "Diseño UX/UI",
+    "web": "Desarrollo Web",
+    "content": "Creación de contenido"
   }
 }
