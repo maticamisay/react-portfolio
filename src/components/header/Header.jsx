@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <CTA />
         <div className="header__lang">
-          LANGUAGE <IoLanguageSharp />
+          {t("header.lang")} <IoLanguageSharp />
           <div >
             <a href="#" className='btn' onClick={() => i18n.changeLanguage("es")}>
               Esp

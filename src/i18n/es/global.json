@@ -3,7 +3,8 @@
     "presentacion": "¡Hola! Soy",
     "carrera": "Desarrollador Web FullStack",
     "boton_cv": "Descargar CV",
-    "boton_contacto": "Mandame un mensaje"
+    "boton_contacto": "Mandame un mensaje",
+    "lang":"LANGUAGE"
   },
   "about": {
     "sobre_mi": "Un poco",
@@ -14,7 +15,7 @@
     "clientes_total": "+10 Clientes satisfechos! :)",
     "proyectos": "Proyectos",
     "proyectos_total": "+10 Completados",
-    "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
+    "texto_sobre_mi": "Estoy constantemente aprendiendo y poniendo en práctica nuevos conocimientos en el campo de la programación, disfruto mucho codear. Mi principal área es el desarrollo Frontend con React, aunque también hago algunos trabajos freelance como desarrollador Backend. Actualmente doy clases de programación FullStack MEAN en Icaro.org.ar. ¿Te gustaría trabajar juntos?",
     "about_boton": "¡Hablemos!"
   },
   "experience": {
@@ -40,6 +41,23 @@
   "testimonials": {
     "review": "Comentarios de mis clientes",
     "testimonials": "Reseñas"
+  },
+  "contact":{
+    "title":"Estemos en contacto",
+    "contact":"Escríbeme",
+    "send":"Déjame un mensaje",
+    "name":"Nombre Completo",
+    "email":"Email",
+    "msg":"¿De qué quieres hablar?",
+    "sendMsg":"Enviar mensaje"
+  },
+  "footer":{
+    "home":"Inicio",
+    "about":"Sobre Mi",
+    "experience":"Experiencia",
+    "services":"Servicios",
+    "portfolio":"Portafolio",
+    "testimonials":"Reseñas"
   }
 }
 

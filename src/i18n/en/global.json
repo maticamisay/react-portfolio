@@ -3,7 +3,8 @@
     "presentacion": "Hi! I'm",
     "carrera": "FullStack Developer",
     "boton_cv": "Download CV",
-    "boton_contacto": "Write me"
+    "boton_contacto": "Write me",
+    "lang":"IDIOMA"
   },
   "about": {
     "sobre_mi": "Get To Know",
@@ -40,5 +41,22 @@
   "testimonials": {
     "review": "Review from clients",
     "testimonials": "Testimonials"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "contact": "Contact Me",
+    "send": "Send a message",
+    "name": "Your Full Name",
+    "email": "Your Email",
+    "msg": "Your Message",
+    "sendMsg": "Send Message"
+  },
+  "footer":{
+    "home":"Home",
+    "about":"About",
+    "experience":"Experience",
+    "services":"Services",
+    "portfolio":"Portfolio",
+    "testimonials":"Testimonials"
   }
 }
