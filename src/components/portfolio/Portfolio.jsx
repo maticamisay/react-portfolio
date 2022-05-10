@@ -7,45 +7,48 @@ import IMG4 from "../../assets/portfolio2.jpg";
 import IMG5 from "../../assets/portfolio1.jpg";
 import IMG6 from "../../assets/portfolio2.jpg";
 import PortfolioItem from "./PortfolioItem";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+  const [t, i18n] = useTranslation();
+
   return (
     <section id="portfolio">
-      <h5>My recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("portfolio.work")}</h5>
+      <h2>{t("portfolio.portfolio")}</h2>
       <div className="container portfolio__container">
         <PortfolioItem
-          title="This is a portfolio title"
+          title={t("portfolio.title1")}
           imgsrc={IMG1}
           github="https://github.com"
           demo="https://github.com"
         />
         <PortfolioItem
-          title="This is a portfolio title"
+          title={t("portfolio.title1")}
           imgsrc={IMG2}
           github="https://github.com"
           demo="https://github.com"
         />
         <PortfolioItem
-          title="This is a portfolio title"
+          title={t("portfolio.title1")}
           imgsrc={IMG3}
           github="https://github.com"
           demo="https://github.com"
         />
         <PortfolioItem
-          title="This is a portfolio title"
+          title={t("portfolio.title1")}
           imgsrc={IMG4}
           github="https://github.com"
           demo="https://github.com"
         />
         <PortfolioItem
-          title="This is a portfolio title"
+          title={t("portfolio.title1")}
           imgsrc={IMG5}
           github="https://github.com"
           demo="https://github.com"
         />
         <PortfolioItem
-          title="This is a portfolio title"
+          title={t("portfolio.title1")}
           imgsrc={IMG6}
           github="https://github.com"
           demo="https://github.com"

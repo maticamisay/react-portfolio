@@ -97,3 +97,11 @@ header {
     padding: 2.3rem 1.125rem 1.125rem 1.125rem;
   }
 }
+
+.header__lang{
+  padding-top: 1.5rem;
+}
+
+.header__lang a{
+  margin: .5rem;
+}

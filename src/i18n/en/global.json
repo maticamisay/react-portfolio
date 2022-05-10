@@ -1,0 +1,62 @@
+{
+  "header": {
+    "presentacion": "Hi! I'm",
+    "carrera": "FullStack Developer",
+    "boton_cv": "Download CV",
+    "boton_contacto": "Write me",
+    "lang":"IDIOMA"
+  },
+  "about": {
+    "sobre_mi": "Get To Know",
+    "YO": "About Me",
+    "exp": "Experience",
+    "exp_tiempo": "2+ Years Working",
+    "clientes": "Clients",
+    "clientes_total": "10+ Satisfied Clients",
+    "proyectos": "Projects",
+    "proyectos_total": "10+ Completed",
+    "texto_sobre_mi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia explicabo nesciunt inventore tempora placeat, adipisci labore animi facere, similique dicta quo temporibus! Veritatis dignissimos at aliquid, odit beatae ullam!",
+    "about_boton": "Let's Talk"
+  },
+  "experience": {
+    "skills": "What Skills I Have",
+    "myExp": "My Experience",
+    "frontend": "Frontend Development",
+    "1y": "1 year",
+    "2y": "2+ years",
+    "backend": "Backend Development"
+  },
+  "services": {
+    "what": "What I Offer",
+    "Services": "Services",
+    "ux": "UX/UI Designer",
+    "web": "Web Development",
+    "content": "Content Creation"
+  },
+  "portfolio": {
+    "work": "What I Offer",
+    "portfolio": "Services",
+    "title1": "UX/UI Designer"
+  },
+  "testimonials": {
+    "review": "Review from clients",
+    "testimonials": "Testimonials"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "contact": "Contact Me",
+    "send": "Send a message",
+    "name": "Your Full Name",
+    "email": "Your Email",
+    "msg": "Your Message",
+    "sendMsg": "Send Message"
+  },
+  "footer":{
+    "home":"Home",
+    "about":"About",
+    "experience":"Experience",
+    "services":"Services",
+    "portfolio":"Portfolio",
+    "testimonials":"Testimonials"
+  }
+}
