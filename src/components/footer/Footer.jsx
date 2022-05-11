@@ -30,9 +30,9 @@ const Footer = () => {
         <li>
           <a href="#portfolio">{t("footer.portfolio")}</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">{t("footer.testimonials")}</a>
-        </li>
+        </li> */}
       </ul>
       <div className="footer__socials">
         <a href="https://www.linkedin.com/in/matias-camisay/">
