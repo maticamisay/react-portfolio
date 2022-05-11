@@ -44,19 +44,19 @@ const Contact = () => {
             <h5>maticamisay99@hotmail.com</h5>
             <a href="mailto:maticamisay99@hotmail.com">{t("contact.send")}</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>maticamisay</h5>
             <a href="https://m.me/maticamisay" target="_blank">
               {t("contact.send")}
             </a>
-          </article>
+          </article> */}
           <article className="contact__option">
             <FaWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+54 9 264 444 4444</h5>
-            <a href="https://wa.me/5492645898880" target="_blank">
+            <a href="https://wa.me/5492645897370" target="_blank">
               {t("contact.send")}
             </a>
           </article>

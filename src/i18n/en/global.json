@@ -4,7 +4,7 @@
     "carrera": "FullStack Developer",
     "boton_cv": "Download CV",
     "boton_contacto": "Write me",
-    "lang":"IDIOMA"
+    "lang": "IDIOMA"
   },
   "about": {
     "sobre_mi": "Get To Know",
@@ -30,8 +30,20 @@
     "what": "What I Offer",
     "Services": "Services",
     "ux": "UX/UI Designer",
+    "ux1": "Innovation from Design Thinking",
+    "ux2": "Customer Experience Design",
+    "ux3": "Diagnosis of the Experience",
+    "ux4": "Management and continuous improvement program",
     "web": "Web Development",
-    "content": "Content Creation"
+    "web1": "Responsive design for all devices",
+    "web2": "With domain.com and security certificate",
+    "web3": "With contact form and data",
+    "web4": "All the sections you need",
+    "content": "Content Creation",
+    "cont1": "Creation of interesting content for the audience",
+    "cont2": "Creation and optimization of advertising campaigns",
+    "cont3": "Management of Social Media",
+    "cont4": "Content design for Social Media"
   },
   "portfolio": {
     "work": "What I Offer",
@@ -51,12 +63,12 @@
     "msg": "Your Message",
     "sendMsg": "Send Message"
   },
-  "footer":{
-    "home":"Home",
-    "about":"About",
-    "experience":"Experience",
-    "services":"Services",
-    "portfolio":"Portfolio",
-    "testimonials":"Testimonials"
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials"
   }
 }

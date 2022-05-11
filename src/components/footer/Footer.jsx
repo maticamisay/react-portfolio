@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import { useTranslation } from "react-i18next";
+import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   const [t, i18n] = useTranslation();
@@ -34,14 +35,14 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="facebook.com">
-          <FaFacebookF />
+        <a href="https://www.linkedin.com/in/matias-camisay/">
+          <BsLinkedin />
         </a>
-        <a href="instagram.com">
-          <FiInstagram />
+        <a href="https://github.com/maticamisay">
+          <BsGithub />
         </a>
-        <a href="twitter.com">
-          <IoLogoTwitter />
+        <a href="https://www.instagram.com/m.camisay/">
+          <BsInstagram />
         </a>
       </div>
 

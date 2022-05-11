@@ -4,13 +4,13 @@ import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="linkedin.com">
+      <a href="https://www.linkedin.com/in/matias-camisay/">
         <BsLinkedin />
       </a>
-      <a href="github.com">
+      <a href="https://github.com/maticamisay">
           <BsGithub />
       </a>
-      <a href="instagram.com">
+      <a href="https://www.instagram.com/m.camisay/">
           <BsInstagram />
       </a>
     </div>
