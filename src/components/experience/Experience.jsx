@@ -20,15 +20,19 @@ const Experience = () => {
             <ExperienceArticle name="Bootstrap" experience={t("experience.1y")} />
             <ExperienceArticle name="Tailwind" experience={t("experience.1y")} />
             <ExperienceArticle name="React Js" experience={t("experience.1y")} />
+            <ExperienceArticle name="Gatsby Js" experience={t("experience.6m")} />
+            <ExperienceArticle name="Next Js" experience={t("experience.6m")} />
+
           </div>
         </div>
         <div className="experience__backend">
           <h3>{t("experience.backend")}</h3>
           <div className="experience__content">
             <ExperienceArticle name="Node Js" experience={t("experience.1y")} />
-            <ExperienceArticle name="Express Js" experience={t("experience.1y")} />
-            <ExperienceArticle name="MySQL" experience={t("experience.1y")} />
-            <ExperienceArticle name="MongoDB" experience={t("experience.1y")} />
+            <ExperienceArticle name="Express Js" experience={t("experience.6m")} />
+            <ExperienceArticle name="MySQL" experience={t("experience.6m")} />
+            <ExperienceArticle name="MongoDB" experience={t("experience.6m")} />
+            <ExperienceArticle name="Firebase" experience={t("experience.1y")} />
           </div>
         </div>
       </div>
